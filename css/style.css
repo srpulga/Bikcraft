@@ -176,3 +176,26 @@ text-align: center;
 .call p{
 	margin-bottom: 20px;
 }
+
+/* Portifólio */
+
+.portifolio{
+    width: 100%;
+    background: black;
+    padding: 40px 0;
+}
+
+.portifolio .subtitulo {
+    color: #fec63e;
+}
+.portifolio .subtitulo:after {
+    background: #fec63e;
+}
+
+.portifolio .call p {
+color: white;
+}
+
+.portifolio_lista li:last-child {
+margin-top: 20px;
+}
