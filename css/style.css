@@ -119,6 +119,7 @@
         height: 380px;
         text-align: center;
         padding-top: 80px;
+        background-size: cover;
     }
     
     .introducao h1 {
