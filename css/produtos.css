@@ -1,0 +1,81 @@
+.interna_produto {
+    background: url("../img/bg-produtos.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.produtos_item {
+    padding-top: 60px;
+}
+
+.produtos_icone {
+    background: black;
+    padding: 70px 0;
+}
+
+.produtos_icone img {
+    margin: 0 auto;
+}
+
+.produtos_item h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    top: -180px;
+    text-align: center;
+    margin-bottom: -56px;
+}
+
+.produtos_item h2::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: white;
+    margin: 6px auto 8px auto;
+}
+
+.produtos_item h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: white;
+    margin: 6px auto 8px auto;
+}
+
+.produto_info {
+    background: black;
+}
+
+.produto_info p {
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    height: 180px;
+    padding: 30px 40px;
+}
+
+.produto_info ul li {
+    background: #fec63e;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    width: 229px;
+    height: 49px;
+    padding-top: 16px;
+}
+
+.produto_info ul li:nth-child(1),
+.produto_info ul li:nth-child(2) {
+    margin-bottom: 2px;
+}
+
+.produto_info ul li:nth-child(even) {
+    margin-left: 2px;
+}
