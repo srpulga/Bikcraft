@@ -190,6 +190,7 @@
     
     .produtos_lista li {
         background: #fec63e;
+        text-align: center;
     }
     
     .produtos_lista li img {
@@ -226,8 +227,10 @@
     .produtos_icon {
         background: #000;
         padding: 20px;
-        margin: 0;
-        text-align: center;
+    }
+    
+    .produtos_icon img {
+        margin: 0 auto;
     }
     
     .call {
