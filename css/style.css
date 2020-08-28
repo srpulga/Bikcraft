@@ -439,6 +439,14 @@
     
     .js .anime {
         opacity: 1;
-        transform: translate3d(none);
+        transform: none;
         transition: opaticy 800ms, transform 800ms;
+    }
+    
+    #form-sucesso {
+        color: green;
+    }
+    
+    #form-erro {
+        color: red;
     }

@@ -6,7 +6,7 @@ if (window.SimpleSlide) {
     });
 
     new SimpleSlide({
-        slide: "portfolio",
+        slide: "portifolio",
         time: 5000,
         nav: true
     });
