@@ -55,6 +55,11 @@
     background: none;
 }
 
+.btn_produto:hover {
+    border-color: black;
+    color: black;
+}
+
 .contato_dados h3 {
     color: #fec63e;
     text-transform: uppercase;

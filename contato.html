@@ -44,19 +44,19 @@
 
     <section class="contato container">
 
-        <form action="produtos.html" id="form_orcamento" method="POST" class="contato_form grid-8">
+        <form action="produtos.html" id="form_orcamento" method="POST" action="./enviar.php" class="contato_form grid-8 formphp">
             <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome:">
+            <input type="text" name="nome" id="nome" required placeholder="Digite seu nome:">
 
             <label for="email">E-mail</label>
-            <input type="text" name="email" id="email" placeholder="Digite seu e-mail:">
+            <input type="text" name="email" id="email" required placeholder="Digite seu e-mail:">
 
             <label for="telefone">Telefone</label>
-            <input type="number" name="telefone" id="telefone" placeholder="Digite seu telefone:">
+            <input type="number" name="telefone" id="telefone" required placeholder="Digite seu telefone:">
 
-            <label for="espec">Especificações</label>
-            <textarea name="espec" id="espec" placeholder="Quais são suas especificações desejadas?"></textarea>
-            <button type="submit" class="btn btn_produto">Enviar</button>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Quais são suas especificações desejadas?" required></textarea>
+            <button id="enviar" name="enviar" type="submit" class="btn btn_produto">Enviar</button>
         </form>
 
         <div class="contato_dados grid-8">
@@ -141,6 +141,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/simple-anime.js"></script>
+    <script src="js/simple-form.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
