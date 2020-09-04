@@ -18,7 +18,7 @@ O Projeto Bikcraft é um site para você poder montar suas bicicletas personaliz
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Heroku](https://devcenter.heroku.com/categories/reference)
 - [Circleci](https://circleci.com/docs/)
-- [AdobeXX](https://www.adobe.com/br/products/xd.html)
+- [AdobeXD](https://www.adobe.com/br/products/xd.html)
 
 ##
 <p align="center">
