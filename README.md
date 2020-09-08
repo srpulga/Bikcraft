@@ -1,5 +1,5 @@
 <h1 align="center"> 
-<a href="https://pulga-bikcraft.herokuapp.com/" <img alt="Bikcraft" title="Bikcraft" src="https://user-images.githubusercontent.com/60319097/92267079-ae108c00-eeb6-11ea-8668-2510867f0eee.png" width="100px" /> </a>
+<img alt="Bikcraft" title="Bikcraft" src="https://user-images.githubusercontent.com/60319097/92267079-ae108c00-eeb6-11ea-8668-2510867f0eee.png" width="100px" />
   
 </h1>
 
